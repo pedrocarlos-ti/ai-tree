@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "AI-Tree 🌳 - Learn and Share AI Knowledge",
   description:
     "AI Tree is a platform for learning and sharing knowledge about AI, each topic is a branch and each branch has a tree of knowledge.",
+  icons: {
+    icon: "/images/site-logo.png",
+  },
 };
 
 export default function RootLayout({
