@@ -8,10 +8,12 @@ const Home = async () => {
   console.log(session);
   return (
     <div className="flex h-screen flex-col items-center justify-center">
-      <h1 className="text-7xl font-bold">Welcome to the tree🌳</h1>
       <h1 className="font-space-grotesk text-7xl font-bold">
         Welcome to the tree 🌳
       </h1>
+      <h2 className="text-2xl font-bold">
+        A place to learn and share AI knowledge
+      </h2>
 
       <form
         className="mt-10"
